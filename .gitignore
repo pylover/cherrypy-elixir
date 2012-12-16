@@ -1,1 +1,4 @@
 demo.db
+build
+CherrypyElixir.egg-info
+dist

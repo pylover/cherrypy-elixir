@@ -53,7 +53,7 @@ Example::
 	        'server.socket_port'  : 1919,
 	        'engine.elixir.on'    : True,
 	        'engine.elixir.echo'    : True,
-	        'engine.elixir.db_uri'    : 'postgresql+psycopg2://postgres:password@localhost/test'
+	        'engine.elixir.db_uri'    : 'sqlite://test.db'
 	    },
 	}
 	
