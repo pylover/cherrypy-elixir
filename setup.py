@@ -22,7 +22,7 @@ setup(
     packages=["CherrypyElixir"],
     platforms=["any"],
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.txt')).read() ,
-    install_requires=['elixir>=0.7.0','sqlalchemy>=0.7.0'],
+    install_requires=['sqlalchemy>=0.7.0, <0.7.9','elixir>=0.7.0, <0.7.9'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "License :: Freeware",
